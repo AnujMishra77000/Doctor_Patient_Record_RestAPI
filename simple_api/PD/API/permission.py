@@ -13,3 +13,4 @@ class ReviewUserOrReadOnly (permissions.IsAuthenticated):
             return True
         else:
              return obj.review_user==request.user
+           
